@@ -1,11 +1,11 @@
 import React, { useRef } from "react";
-import my2 from "../assets/images/my2.jpg";
+import MOTH from "../assets/images/MOTH.png";
 import Type from "./Type";
 
 const socialMediaLinks = [
-  "https://www.instagram.com/_aaaryaan__/",
-  "https://github.com/aryyan0701",
-  "https://www.linkedin.com/in/aryan-kadam-568083204/",
+  "https://www.instagram.com/crazyy_killer_07",
+  "https://github.com/MOTHISHRAJ01",
+  "https://www.linkedin.com/in/MothishRaj2000@gmail.com/",
   "https://twitter.com/aaryyan_",
 ];
 
@@ -23,6 +23,7 @@ const Hero = () => {
     "logo-github",
     "logo-linkedin",
     "logo-twitter",
+    "logo-facebook"
   ];
   return (
     <section
@@ -30,7 +31,7 @@ const Hero = () => {
       className="min-h-screen flex py-10 md:flex-row flex-col items-center"
     >
       <div className="flex-1 flex items-center justify-center h-full">
-        <img src={my2} alt="" className="md:w-2/3 h-auto object-cover" />
+        <img src={MOTH} alt="" className="md:w-2/3 h-auto object-cover" />
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
@@ -39,7 +40,7 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            My Name is <span>Aryan Kadam</span>
+            My Name is <span>P.MOTHISH RAJ</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
                 <Type/>

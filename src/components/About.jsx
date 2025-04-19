@@ -2,12 +2,12 @@ import React from "react";
 const About = () => {
   const info = [
     // { text: "Years experience", count: "04" },
-    { text: "Completed Projects", count: "10" },
+    { text: "Completed Projects", count: "5" },
     { text: "Companies Work", count: "01" }
   ];
 
  
-  const googleDriveLink = "https://drive.google.com/file/d/1OzuOrRm0Rn9g7xwO6RUO9zUZHkvxFjtr/view?usp=drivesdk";
+  const googleDriveLink = "mothish.pdf";
 
 
   const navigateToResume = () => {
@@ -25,11 +25,11 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-              I am currently pursuing b.tech in IT, As a Developer specializing in web development With hands-on experience in crafting dynamic user interfaces, I bring a blend of creativity and technical expertise to my role.
-                <br />Having secured an internship as a Frontend Developer at a reputable company, I've dived headfirst into Angular development, harnessing the power of Bootstrap for responsive and visually appealing designs. Additionally, my journey has acquainted me with Node.js, empowering me to contribute to server-side functionalities as well.
-                <br />
-                Beyond Angular, I possess a versatile skill set. I am proficient in javascript, TypeScript, React.js, Bootstrap, Firebase, and GitHub, ensuring that I am well-equipped to adapt to diverse project requirements.
-                <br /> My focus lies in delivering exceptional user experiences through intuitive and scalable UI components.I have honed my skills in crafting impressive user interfaces, ensuring seamless navigation and optimal performance across devices.
+              Hi, I’m Mothish Raj, a MERN Full Stack Developer passionate about building modern, scalable, and user-centric web applications. With hands-on experience in MongoDB, Express.js, React.js, and Node.js, I specialize in crafting full-stack solutions that bridge design and functionality.
+
+I began my journey in tech with a BCA from the University of Madras, followed by an MCA from Dr. M.G.R. Educational and Research Institute. During my 6-month tenure at Why Global Services, I worked on real-world web applications, honed my skills in RESTful API development, front-end performance optimization, and integrated tools like Redux and Firebase.
+
+My recent project—a full-stack crowdfunding platform—demonstrates my ability to build secure, responsive applications from scratch. I’m also deeply interested in tech-driven solutions for social impact, as reflected in my earlier project on mental health identification using facial expressions.
               </p>
               <div className="flex mt-10 items-center gap-7">
                 {info.map((content) => (
