@@ -1,5 +1,6 @@
 import React from "react";
 import hireMe from "../assets/images/hireMe.png";
+
 const Hireme = () => {
   return (
     <section id="hireme" className="py-10 px-3 text-white">
@@ -15,16 +16,18 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+            I am available for freelance projects and collaborations. If you have any work related to web development, UI/UX, or app interfaces, feel free to reach out. I'm eager to contribute to your projects with passion and precision!
           </p>
-          <button className="btn-primary mt-10">Say Hello</button>
+          <a
+            href="mailto:mothishraj01@gmail.com"
+            className="btn-primary mt-10 inline-block h-16 w-48 items-center justify-center"
+          >
+            Say Hello
+          </a>
         </div>
         <img
           src={hireMe}
-          alt=""
+          alt="Hire Me"
           className="lg:h-[32rem] h-80 lg:absolute bottom-0 -right-3 object-cover"
         />
       </div>

@@ -7,7 +7,7 @@ const contact_info = [
   },
   {
     logo: "call",
-    text: "+91 1234567890"
+    text: "+91 7639263070"
   },
   {
     logo: "location",
